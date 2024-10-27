@@ -3,7 +3,13 @@
 export default function Home() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <section className="pink_container">
+        <h1 className="heading">Pitch Your Startup, <br aria-hidden />
+        Connect with Entrepreneurs
+        </h1>
+        <p className="sub-heading !max-w-3xl">Submit Your ideas, Vote on Pitchs and get Noticed in Virtual competitions</p>
+
+      </section>
     </>
   );
 }
